@@ -33,8 +33,3 @@ jobs:
       - name: Push Docker image to Docker Hub
         run: |
           docker tag my-node-app myusername/my-node-app:latest  # Replace with your Docker Hub username
-<<<<<<< HEAD
-          docker push myusername/my-node-app:latest  # Replace with your Docker Hub username
-=======
-          docker push myusername/my-node-app:latest  # Replace with your Docker Hub username
->>>>>>> origin/main
